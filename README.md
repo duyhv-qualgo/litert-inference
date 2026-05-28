@@ -1,4 +1,4 @@
-# litert-inference
+# LiteRT Inference Engine
 
 On-device LLM inference experiments. Two independent stacks live here, one
 per model family.
