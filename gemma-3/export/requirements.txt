@@ -1,0 +1,12 @@
+# PyTorch GenAI -> LiteRT-LM export pipeline.
+# Per https://ai.google.dev/edge/litert/conversion/pytorch/genai, litert-torch
+# bundles the converter, generative authoring API, quantizer, and .litertlm
+# packager. It pulls in a matching tf-nightly + ai-edge-torch as transitives.
+#
+# Python >= 3.10, Linux. Set HF_TOKEN before running (gemma is gated).
+# Swap `litert-torch` for `litert-torch-nightly` if you need bleeding-edge fixes.
+
+litert-torch
+torch>=2.4.0
+transformers
+huggingface_hub

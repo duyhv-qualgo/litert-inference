@@ -1,0 +1,3 @@
+[submodule "matmoe-inference-c"]
+	path = matmoe-inference-c
+	url = https://github.com/duyhv-qualgo/matmoe-inference-c
